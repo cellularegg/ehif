@@ -1,3 +1,5 @@
 # ehif
 
-This is a nice ReadMe file :)
+Hello World!
+
+This is a Altis Life repository.
