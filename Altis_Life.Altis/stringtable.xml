@@ -1549,4 +1549,72 @@
 		<Key ID="STR_NOTF_Gathering">
 			<Original>Gathering %1...</Original>
 			<German>Sammle %1...</German>
-	
+			<French>Ramassage %1...</French>
+			<Italian>Raccogliendo %1</Italian>
+			<Portuguese>Coletando %1...</Portuguese>
+		</Key>
+		<Key ID="STR_NOTF_ChopSoldCar">
+			<Original>You have sold a %1 for $%2</Original>
+			<German>Du hast einen %1 für $%2 verkauft</German>
+			<French>Tu as vendu cet élément : %1 pour $%2</French>
+			<Italian>Hai venduto un %1 per %2€</Italian>
+			<Portuguese>Você vendeu %1 por R$%2</Portuguese>
+		</Key>
+		<Key ID="STR_NOTF_Picked">
+			<Original>You have picked %1 %2</Original>
+			<German>Du hast %1 %2 gesammelt</German>
+			<French>Tu as ramassé : %1 %2</French>
+			<Italian>Hai trovato %1 %2</Italian>
+			<Portuguese>Você pegou %1 %2</Portuguese>
+		</Key>
+		<Key ID="STR_NOTF_Collected">
+			<Original>You have collected some %1</Original>
+			<German>Du hast etwas %1 gesammelt</German>
+			<French>Tu as ramassé %1</French>
+			<Italian>Hai raccolto %1</Italian>
+			<Portuguese>Você coletou %1</Portuguese>
+		</Key>
+		<Key ID="STR_NOTF_DPStart">
+			<Original>You are to deliver this package to %1</Original>
+			<German>Du musst dieses Paket bei %1 abliefern</German>
+			<French>Vous avez livré ce packet à %1</French>
+			<Italian>Devi consegnare questo pacco al %1</Italian>
+			<Portuguese>Você deve entregar esse pacote em %1</Portuguese>
+		</Key>
+		<Key ID="STR_NOTF_DPTask">
+			<Original>Deliver this package to %1</Original>
+			<German>Liefere dieses Paket bei %1 ab</German>
+			<French>Livrer ce paquet à %1</French>
+			<Italian>Consegna questo pacco al %1</Italian>
+			<Portuguese>Entregue esse pacote em %1</Portuguese>
+		</Key>
+		<Key ID="STR_NOTF_DPFailed">
+			<Original>You failed to deliver the package because you died.</Original>
+			<German>Du hast es nicht geschafft, das Paket abzuliefern, da du gestorben bist.</German>
+			<French>Vous avez omis de livrer le colis car vous êtes morts.</French>
+			<Italian>Compra Oggetto</Italian>			
+			<Portuguese>Você falhou na tarefa de entrega pois você morreu.</Portuguese>
+		</Key>
+		<Key ID="STR_NOTF_HS_NoCash">
+			<Original>You do not have $%1 to be healed</Original>
+			<German>Du hast keine $%1, um geheilt zu werden.</German>
+			<French>Vous n'avez pas $%1 pour vous soignez.</French>
+			<Italian>Non hai €$1 per essere curato</Italian>
+			<Portuguese>Você não tem R$%1 para ser tratado</Portuguese>
+		</Key>
+		<Key ID="STR_NOTF_HS_Healing">
+			<Original>Please stay still</Original>
+			<German>Bitte bewege dich nicht</German>
+			<French>Ne bougez pas</French>
+			<Italian>Attendi pazientemente</Italian>
+			<Portuguese>Fique parado por favor</Portuguese>
+		</Key>
+		<Key ID="STR_NOTF_HS_ToFar">
+			<Original>You need to be within 5m while the doctor is healing you</Original>
+			<German>Du musst in der Nähe des Doktors bleiben, während du geheilt wirst</German>
+			<French>Vous devez être à moins de 5m pendant que le médecin vous soigne</French>
+			<Italian>Devi restare entro 5m dal dottore per essere curato</Italian>
+			<Portuguese>Você tem que estar a 5m para o médico tratá-lo</Portuguese>
+		</Key>
+		<Key ID="STR_NOTF_HS_Healed">
+			<Origina
