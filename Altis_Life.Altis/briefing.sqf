@@ -45,7 +45,7 @@ player createDiarySubject ["controls","Controls"];
 				"
 				These are considered exploits, and you will not be kicked, but banned.<br/><br/>
 
-				1. Getting out of jail via any method other than paying bail or escaping via helicopter.<br/>
+				1. Getting out of jail via any method other than paying bail or escaping via helicopter.Allahu?<br/>
 				2. Killing yourself to get out of roleplay. Getting out of being tazed, restrained, arrested, jail, etc. If the log shows you got arrested, then you died, you will be banned. Do not pay bail and kill yourself for an easy ride home. Walk you lazy turd.<br/>
 				3. Duping items and/or money. If someone sends you an unobtainable amount of money right at the start of the game, report to an admin IMMEDIATELY and transfer said money to an admin. Do this ASAP or an admin could ban you if they see that much on you without question.<br/>
 				4. Using clearly hacked items. If a hacker comes in and spawns unobtainable items, you could be banned for using said items. Report the items to the admins immediately and stay away from them.<br/>
