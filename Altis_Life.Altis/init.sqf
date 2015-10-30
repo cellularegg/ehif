@@ -13,8 +13,8 @@ life_versionInfo = "Altis Life RPG v3.1.4.8";
 [] execVM "KRON_Strings.sqf";
 if (playerSide == east) then
 {0 = execVM "IgiLoad\IgiLoadInit.sqf";};
-[] execVM "statusBar.sqf";
-[] execVM "teargas.sqf";
+[] execVM "scripts\statusBar.sqf";
+[] execVM "scripts\teargas.sqf";
 
 StartProgress = true;
 

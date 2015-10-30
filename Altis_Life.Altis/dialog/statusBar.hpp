@@ -24,7 +24,7 @@ class statusBar {
 			size = 0.03;
 			type = 13;
 			style = 1;
-			text="Chargement...";
+			text="Loading...";
 			class Attributes {
 				align="right";
 				color = "#FFFFFF";
