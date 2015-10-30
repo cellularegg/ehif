@@ -42,7 +42,6 @@ switch (_state) do
 	//Killing someone while owning a gun license
 	case 3:
 	{
-		if(currentWeapon player in ["hgun_PDW2000_F","hgun_Rook40_F", "hgun_Pistol_heavy_02_F","hgun_ACPC2_F"]) exitWith{};
 		if(license_civ_gun) then {
 			license_civ_gun = false;
 			hint localize "STR_Civ_LicenseRemove_2";
