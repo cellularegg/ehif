@@ -39,6 +39,12 @@ player setVariable["name",nil,TRUE];
 player setVariable["Reviving",nil,TRUE];
 [] call life_fnc_hudUpdate; //Request update of hud.
 
+//I did not die, so give me my license back (implementation prevents gaining from dc'ing while dead) -GT-
+if (life_removedReb) then {
+	license_civ_rebel = true;
+	life_removedReb = false;
+}:
+
 // U f*** uniform will you finally paint yourself??
 [] spawn
 {

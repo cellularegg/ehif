@@ -8,7 +8,7 @@ disableSerialization;
 */
 _rscLayer = "osefStatusBar" call BIS_fnc_rscLayer;
 _rscLayer cutRsc["osefStatusBar","PLAIN"];
-systemChat format["[GL v3.1.4] Loading game server info...", _rscLayer];
+systemChat format["[AL v3.1.4.8] Loading game server info...", _rscLayer];
 
 [] spawn {
 	sleep 5;

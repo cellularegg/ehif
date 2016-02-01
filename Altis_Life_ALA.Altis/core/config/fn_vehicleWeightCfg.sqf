@@ -34,6 +34,7 @@ switch (_className) do
 	case "O_Truck_03_covered_F": {300};
 	case "B_Truck_01_transport_F": {325};
 	case "O_Truck_03_device_F": {350};
+	case "B_Truck_01_ammo_F" : {370};
 	case "B_Truck_01_box_F": {450};
 	
 	// Boats

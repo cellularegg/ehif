@@ -86,7 +86,7 @@ if(!isNull _killer && {_killer != _unit} && {side _killer != west} && {alive _ki
 //Killed by cop stuff...
 if(side _killer == west && playerSide != west) then {
 	life_copRecieve = _killer;
-	//Did I rob the federal reserve?
+	//Did I rob the federal reserve? == OBSOLETE == -GT-
 	if(!life_use_atm && {life_cash > 0}) then {
 		[format[localize "STR_Cop_RobberDead",[life_cash] call life_fnc_numberText],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 		life_cash = 0;
@@ -95,6 +95,13 @@ if(side _killer == west && playerSide != west) then {
 
 if(!isNull _killer && {_killer != _unit}) then {
 	life_removeWanted = true;
+};
+
+//Remove my reb license if I'm wanted and was killed by a cop -GT-
+if ((license_civ_rebel) && side _killer == west && vehicle _killer == _killer) then {
+	[[getPlayerUID player],"life_fnc_wantedPunish",false,false] spawn life_fnc_MP; //remove reb licence if wanted
+	//license_civ_rebel = false;
+	life_removedReb = true;
 };
 
 _handle = [_unit] spawn life_fnc_dropItems;

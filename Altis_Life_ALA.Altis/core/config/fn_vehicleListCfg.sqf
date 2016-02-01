@@ -50,7 +50,7 @@ switch (_shop) do
 			["C_Offroad_01_F",12500],
 			["C_SUV_01_F",35000],
 			["C_Van_01_transport_F",40000],
-			["C_Hatchback_01_sport_F",100000]
+			["C_Hatchback_01_sport_F",230000]
 		];
 	};
 	
@@ -61,15 +61,15 @@ switch (_shop) do
 			["C_Van_01_box_F",60000],
 			["I_Truck_02_transport_F",75000],
 			["I_Truck_02_covered_F",100000],
-			["B_Truck_01_transport_F",275000],
 			["O_Truck_03_transport_F",200000],
 			["O_Truck_03_covered_F",250000],
+			["B_Truck_01_transport_F",275000],
+			["B_Truck_01_ammo_F",310000],
 			["B_Truck_01_box_F",350000],
-			["O_Truck_03_device_F",850000]
+			["O_Truck_03_device_F",870000]
 			//["C_Van_01_fuel_F",100]
 			//["B_Truck_01_covered_F",100]
 			//["B_Truck_01_fuel_F",100]
-			//["B_Truck_01_ammo_F",100]
 			//["I_Truck_02_fuel_F",100]
 			//["I_Truck_02_box_F",100]
 			//["O_Truck_03_repair_F",100]
@@ -90,9 +90,9 @@ switch (_shop) do
 				["B_G_Van_01_transport_F",45000],
 				["O_MRAP_02_F",1000000],
 				["B_Heli_Light_01_F",325000],
-				["B_G_Offroad_01_armed_F",700000],
-				["O_Heli_Light_02_unarmed_F",790000],
-				["I_MRAP_03_F",1500000]
+				["B_G_Offroad_01_armed_F",600000],
+				["O_Heli_Light_02_unarmed_F",930000],
+				["I_MRAP_03_F",1200000]
 			];
 		};
 	};
@@ -106,15 +106,17 @@ switch (_shop) do
 			[
 				["B_Quadbike_01_F",800],
 				["B_G_Offroad_01_F",8000],
-				["C_Hatchback_01_sport_F",60000],
+				["C_Hatchback_01_sport_F",100000],
 				["O_Truck_03_covered_F",200000],
 				["B_Truck_01_box_F",300000],
 				["O_Truck_03_device_F",700000],
 				["O_MRAP_02_F",700000],
+				["I_MRAP_03_F",870000],
 				["B_G_Offroad_01_armed_F",500000],
 				["B_Heli_Light_01_F",270000],
 				["O_Heli_Light_02_unarmed_F",600000],
-				["I_Heli_Transport_02_F",1000000]
+				["I_Heli_Transport_02_F",1070000],
+				["O_Heli_Transport_04_box_F",1200000]
 			];
 		};
 	};
@@ -200,12 +202,12 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["C_Heli_Light_01_civil_F",230000],
-			["B_Heli_Light_01_F",253000],
-			["O_Heli_Light_02_unarmed_F",750000],
-			["I_Heli_Transport_02_F",1200000]
+			["C_Heli_Light_01_civil_F",235000],
+			["B_Heli_Light_01_F",247000],
+			["O_Heli_Light_02_unarmed_F",900000],
+			["I_Heli_Transport_02_F",1340000],
+			["O_Heli_Transport_04_box_F",1500000]
 			//["O_Heli_Transport_04_bench_F",100]
-			//["O_Heli_Transport_04_box_F",100]
 			//["O_Heli_Transport_04_covered_F",100]
 			//["O_Heli_Transport_04_fuel_F",100]
 		];

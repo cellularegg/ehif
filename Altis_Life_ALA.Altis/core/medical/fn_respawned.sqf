@@ -69,5 +69,8 @@ if(life_removeWanted) then {
 	[[getPlayerUID player],"life_fnc_wantedRemove",false,false] spawn life_fnc_MP;
 };
 
+// My license got removed and I respawned. Set it back to false.
+if (life_removedReb) then { life_removedReb = false;};
+
 [] call SOCK_fnc_updateRequest;
 [] call life_fnc_hudUpdate; //Request update of hud.

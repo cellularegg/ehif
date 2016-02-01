@@ -4733,7 +4733,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1055;
+		items=1056;
 		class Item0
 		{
 			position[]={8456.1416,49.214363,12762.685};
@@ -15458,6 +15458,15 @@ class Mission
 			skill=0.60000002;
 			text="hq_desk_1_1_1";
 			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1055
+		{
+			position[]={8065.1616,35.674362,24985.314};
+			id=1325;
+			side="EMPTY";
+			vehicle="Land_Garbage_line_F";
+			skill=0.60000002;
+			text="bank_obj";
 		};
 	};
 	class Markers

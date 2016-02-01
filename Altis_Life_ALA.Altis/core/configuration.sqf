@@ -36,8 +36,12 @@ life_channel_send = false;
 life_god = false;
 life_frozen = false; 
 life_markers = false;
-// another try to fix all these exploits
-life_action_pickaxeInUse = false;
+// --
+life_action_pickaxeInUse = false; // another try to fix all these exploits
+life_nottoofast = 0; //Trying to fix the garage
+life_request_timer = false; // Medic request
+life_isSuicide = false;	// Allahu snackbar
+life_removedReb = false; // I don't know why I do this...
 
 
 
@@ -94,9 +98,7 @@ __CONST__(life_impound_tank,100);
 life_istazed = false;
 life_my_gang = ObjNull;
 life_drink = 0; //Alcohol -GT-
-life_nottoofast = 0; //Trying to fix the garage
-life_request_timer = false; // Medic request
-life_isSuicide = false;	// Allahu snackbar
+
 
 life_vehicles = [];
 bank_robber = [];
@@ -306,7 +308,7 @@ buy_array =
 	["donuts",120],
 	["coffee",10],
 	["tbacon",75],
-	["lockpick",1200],
+	["lockpick",3000],
 	["pickaxe",1200],
 	["redgull",150],
 	["fuelF",850],
