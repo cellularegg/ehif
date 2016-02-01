@@ -1,0 +1,47 @@
+---------------
+Credits 
+---------------
+
+Altis Life 3.1.4.8 "Vanilla" & the Altis Life Framework by Tonic and some other authors, as mentioned in the file headers
+
+Custom scripts:
+midgetgrimm
+Mokomoko
+MrKraken
+Osef
+Game Timer
+Hans "Skeesicks" Wurst
+ColinM9991
+Kuchiha
+Lifted
+alleskapot
+JoeyLosPepes
+Insane
+Hauklotz
+noldy
+cat24max
+& some unknown authors
+
+Map Stuff:
+Game Timer
+Stuff24
+Blackc0bra
+Backer
+Darkstar
+
+Sounds:
+Rundumleuchte1
+& some unknown authors
+
+Textures:
+Game Timer
+Stagger Lee
+Mr Hanky
+Darkstar
+Blackc0bra
+Weshna
+
+Last edit: 1.2.2015 by AltisLifeAustria.at
+
+NOTE: It is NOT allowed to reuse the AltisLifeAustria files or parts of them without my (Game Timer) 
+explicit permission to do so.
