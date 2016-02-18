@@ -237,7 +237,7 @@ switch (_shop) do
 			_return pushBack
 			["O_Heli_Transport_04_F",30000];
 		};
-		if(__GETC__(life_coplevel) > 4) then	// Major / General
+		if(__GETC__(life_coplevel) > 5) then	// Major / General
 		{
 			_return pushBack
 			["B_Heli_Transport_01_F",300000];		// <= armed

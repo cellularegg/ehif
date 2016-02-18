@@ -58,7 +58,7 @@ switch (_item) do
 	case "storagebig": {10};
 	case "bottledbeer": {1}; //alc -GT-
 	case "zipties": {3};
-	case "mauer": {20};
+	case "mauer": {10};
 	// Not needed 'cause it's 1 but swag... -GT-
 	case "henraw": {1};
     case "roosterraw": {1};

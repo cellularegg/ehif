@@ -43,7 +43,7 @@ player setVariable["Reviving",nil,TRUE];
 if (life_removedReb) then {
 	license_civ_rebel = true;
 	life_removedReb = false;
-}:
+};
 
 // U f*** uniform will you finally paint yourself??
 [] spawn

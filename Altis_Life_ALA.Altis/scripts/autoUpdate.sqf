@@ -3,7 +3,7 @@
 	Author: Game Timer
 	
 	Description:
-	Small script for players that forget to press Sync Data regularyly
+	Small script for players that forget to press Sync Data regularly
 */
 
 while {true} do

@@ -130,7 +130,8 @@ switch (_vehicle) do
 		[
 			["textures\bp_strider.paa","cop"],
 			["textures\bp_cobra_strider.paa","cop"],
-			["\A3\Soft_F_beta\MRAP_03\Data\mrap_03_ext_indp_co.paa","reb"]
+			["\A3\Soft_F_beta\MRAP_03\Data\mrap_03_ext_indp_co.paa","reb"],
+			["\A3\Soft_F_beta\MRAP_03\Data\mrap_03_ext_indp_co.paa","donate"]
 		];
 	};
 	

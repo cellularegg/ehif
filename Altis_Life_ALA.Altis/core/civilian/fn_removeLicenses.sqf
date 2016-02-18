@@ -5,9 +5,9 @@
 	Description:
 	Used for stripping certain licenses off of civilians as punishment.
 */
-private["_state"];
+private["_state","_killcount"];
 _state = [_this,0,1,[0]] call BIS_fnc_param;
-_legalguns = ["",""];
+_legalguns = ["hgun_Rook40_F","hgun_P07_F","hgun_Pistol_heavy_02_F","hgun_ACPC2_F","hgun_Pistol_heavy_01_F","hgun_PDW2000_F","SMG_02_F","SMG_01_F"];
 
 switch (_state) do
 {

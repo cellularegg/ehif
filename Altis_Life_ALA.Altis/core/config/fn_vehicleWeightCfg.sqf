@@ -51,7 +51,7 @@ switch (_className) do
 	// Helis
 	case "C_Heli_Light_01_civil_F": {80};
 	case "B_Heli_Light_01_F": {90};
-	case "O_Heli_Light_02_unarmed_F": {210};
+	case "O_Heli_Light_02_unarmed_F": {200};
 	case "I_Heli_Transport_02_F": {250};
 	case "O_Heli_Transport_04_box_F": {280};
 	

@@ -15,7 +15,7 @@ _role1names = ["Wir hoffen, es gefälllt dir","am AltisLifeAustria Server"]; //I
 _role2 = "Unser TS:";
 _role2names = ["altislifeaustria.at"]; 
 _role3 = "Unser Team:";
-_role3names = ["Skeesicks","Game Timer","Blackc0bra","Darkstar","Mr Hanky"];
+_role3names = ["Skeesicks","Game Timer","Blackc0bra","Darkstar","Mr Hanky","Hedoja","Dirtyharry","Ernst Haft","Judas"];
 _role4 = "Unsere Features:";
 _role4names = ["Keine Ermüdung","Starker Fokus auf RP","Presse","Anwälte","Zivilpolizei","Konsumierbarer Alkohol","Österreichische Skins, Sounds","Benutzbare Drogen","Österr. Essen","Paintball","Kompetentes Admin Team"];
  

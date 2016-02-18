@@ -94,7 +94,7 @@ if(playerSide == west || license_civ_ucduty) then {
 		};
 	} else {
 		_Btn3 ctrlSetText localize "STR_vInAct_PullOut";
-		_Btn3 buttonSetAction "[life_vInact_curTarget] spawn life fnc_pulloutAction;";
+		_Btn3 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_pulloutAction;";
 		if (count crew _curTarget == 0) then {_Btn3 ctrlEnable false;};
 	};
 	
