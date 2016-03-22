@@ -6,5 +6,5 @@
     Calls the Dialog.
     
 */
-if(!createDialog "channel") exitWith {hint "Fehler beim Dialog erstelle";}; //Couldn't create the menu?
+if(!createDialog "channel") exitWith {hint "Fehler beim Dialog erstellen";}; //Couldn't create the menu?
 disableSerialization;

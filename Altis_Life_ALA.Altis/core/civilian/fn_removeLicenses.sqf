@@ -42,7 +42,7 @@ switch (_state) do
 	case 3:
 	{
 		if(license_civ_gun) then {
-			if (currentWeapon player in _legalguns && _killcount != 1) exitWith{ _killcount = 1;};
+			if (currentWeapon player in _legalguns && (isNil "_killcount" || _killcount != 1)) exitWith{ _killcount = 1;};
 			license_civ_gun = false;			
 			hint localize "STR_Civ_LicenseRemove_2";
 			if (currentWeapon player in _legalguns) then { _killcount = 0;};

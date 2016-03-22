@@ -52,7 +52,6 @@ player createDiarySubject ["help","Hilfe"];
 				Mokomoko<br/>
 				MrKraken<br/>
 				Osef<br/>
-				Game Timer<br/>
 				Hans Wurst / Skeesicks<br/>
 				ColinM9991<br/>
 				Kuchiha<br/>
@@ -63,6 +62,8 @@ player createDiarySubject ["help","Hilfe"];
 				Hauklotz<br/>
 				noldy<br/>
 				cat24max<br/>
+				Ehno<br/>
+				Paronity<br/>
 				and some unknown authors<br/>
 				<br/>
 				Map Stuff:<br/>

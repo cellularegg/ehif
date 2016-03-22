@@ -22,6 +22,7 @@ life_action_inUse = true;
 };
 if (_displayName == "") exitWith {life_action_inUse = false;};
 _upp = format["Gutting %1",_displayName];
+
 //Setup our progress bar.
 disableSerialization;
 5 cutRsc ["life_progress","PLAIN"];
@@ -31,6 +32,7 @@ _pgText = _ui displayCtrl 38202;
 _pgText ctrlSetText format["%2 (1%1)...","%",_upp];
 _progress progressSetPosition 0.01;
 _cP = 0.01;
+
 while{true} do {
     if(animationState player != "AinvPknlMstpsnonWnonDnon_medic_1" ) then {
         player action ["SwitchWeapon", player, player, 100]; //EDIT

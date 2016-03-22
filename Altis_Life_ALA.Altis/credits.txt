@@ -5,11 +5,11 @@ Credits
 Altis Life 3.1.4.8 "Vanilla" & the Altis Life Framework by Tonic and some other authors, as mentioned in the file headers
 
 Custom scripts:
+Game Timer
 midgetgrimm
 Mokomoko
 MrKraken
 Osef
-Game Timer
 Hans "Skeesicks" Wurst
 ColinM9991
 Kuchiha
@@ -20,6 +20,8 @@ Insane
 Hauklotz
 noldy
 cat24max
+Ehno
+Paronity
 & some unknown authors
 
 Map Stuff:
@@ -41,7 +43,7 @@ Darkstar
 Blackc0bra
 Weshna
 
-Last edit: 1.2.2015 by AltisLifeAustria.at
+Last edit: 22.3.2016 by AltisLifeAustria.at
 
 NOTE: It is NOT allowed to reuse the AltisLifeAustria files or parts of them without my (Game Timer) 
 explicit permission to do so.

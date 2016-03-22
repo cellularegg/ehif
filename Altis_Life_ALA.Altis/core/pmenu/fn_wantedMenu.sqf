@@ -18,7 +18,7 @@ _units = [];
 
 ctrlSetText[2404,"Establishing connection..."];
 
-if(__GETC__(life_coplevel) < 3 && __GETC__(life_adminlevel) == 0) then	// Open it or remove wanted entry?
+if(__GETC__(life_coplevel) < 3 && __GETC__(life_adminlevel) == 0) then
 {
 	ctrlShow[2405,false];
 };

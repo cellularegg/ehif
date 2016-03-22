@@ -119,6 +119,8 @@ class Life_Client_Core
 		class suicideBomb {};
 		class packupMauer {};
 		class gutAnimal {};
+		class robShops {};
+		class robBank {};
 	};
 	
 	class Paintball

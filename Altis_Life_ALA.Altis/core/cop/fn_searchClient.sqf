@@ -21,10 +21,10 @@ _robber = false;
 	};
 } foreach life_illegal_items;
 
-if(!life_use_atm) then 
-{
-	life_cash = 0;
-	_robber = true;
-};
+//if(!life_use_atm) then 
+//{
+//	life_cash = 0;
+//	_robber = true;
+//};
 
 [[player,_inv,_robber],"life_fnc_copSearch",_cop,false] spawn life_fnc_MP;
