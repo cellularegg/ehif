@@ -6,7 +6,7 @@
 	Description:
 	Removes the players weapons client side
 */
-private["_blacklist","_primary","_handgun","_uniform","_vest"];
+private["_blacklist","_prim","_seco","_vest"];
 
 _blacklist = [1] call life_fnc_seizeCfg;
 
@@ -18,13 +18,13 @@ if(count _itemArray == 0) exitWith {
 	[[52, player, format["%1 hat keine Waffen bei sich.", name cursorTarget]],"TON_fnc_logIt",false,false] spawn life_fnc_MP;
 };
 
-_uniform = [_itemArray,0,"",[""]] call BIS_fnc_param;
-_vest = [_itemArray,1,"",[""]] call BIS_fnc_param;
-_prim = [_itemArray,6,"",[""]] call BIS_fnc_param;
-_seco = [_itemArray,7,"",[""]] call BIS_fnc_param;
+_prim = primaryWeapon player;
+_seco = secondaryWeapon player;
+_vest = vest player;
 
-if(_prim in _blacklist) then { player removeWeapon _prim};
-if(_seco in _blacklist) then { player removeWeapon _seco};
+player removeWeapon _prim;
+player removeWeapon _seco;
+if (_vest == "V_HarnessOGL_gry") then {removeVest player;};
 
 [] call life_fnc_saveGear;
 

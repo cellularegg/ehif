@@ -317,6 +317,7 @@ compileFinal "
 			hint parseText format [""<t color='#FFCC00'><t size='2'><t align='center'>144 Notruf<br/><br/><t color='#33CC33'><t align='left'><t size='1'>An: <t color='#ffffff'>You<br/><t color='#33CC33'>Von: <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Nachricht:<br/><t color='#ffffff'>%2"",_from,_msg];
 			
 			[""TextMessage"",[format[""Rettungsnotruf von %1"",_from]]] call bis_fnc_showNotification;
+			systemChat _message;
 		};
 		
 		case 6 :

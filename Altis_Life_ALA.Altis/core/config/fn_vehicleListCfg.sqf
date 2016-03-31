@@ -233,9 +233,9 @@ switch (_shop) do
 		if(__GETC__(life_coplevel) > 4) then	// Hauptmann
 		{
 			_return pushBack
-			["I_Heli_light_03_unarmed_F",30000];
+			["I_Heli_light_03_unarmed_F",100000];
 			_return pushBack
-			["O_Heli_Transport_04_F",30000];
+			["O_Heli_Transport_04_F",90000];
 		};
 		if(__GETC__(life_coplevel) > 5) then	// Major / General
 		{

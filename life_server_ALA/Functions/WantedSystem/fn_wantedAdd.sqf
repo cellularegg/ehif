@@ -29,7 +29,7 @@ switch(_type) do
 	// Added by -GT-
 	case "1": {_type = ["Fahren ohne Führerschein",1000]};
 	case "2": {_type = ["Versuchter Diebstahl Fahrzeugs",3500]};
-	case "3": {_type = ["Diebstahl/Führen e.fremden Zivilfahrzeugs",4500]};
+	case "3": {_type = ["Diebstahl/Führen e.fremden Zivilfahrzeugs",5000]};
 	case "4": {_type = ["Fahren ohne Licht",500]};
 	case "5": {_type = ["Überhöhte Geschwindigkeit",1000]};
 	case "6": {_type = ["Gefährliche Fahrweise",1500]};
