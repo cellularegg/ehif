@@ -52,6 +52,20 @@ switch (_vehicle) do
 		];
 	};
 	
+	case "C_Offroad_02_unarmed_F":
+	{
+		_ret =
+		[
+			["\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_black_co.paa","civ"],
+			["\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_blue_co.paa","civ"],
+			["\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_green_co.paa","civ"],
+			["\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_orange_co.paa","civ"],
+			["\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_red_co.pa","civ"],
+			["\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_white_co.paa","civ"]
+			
+		];
+	};
+	
 	case "C_Offroad_01_F":
 	{
 		_ret = 

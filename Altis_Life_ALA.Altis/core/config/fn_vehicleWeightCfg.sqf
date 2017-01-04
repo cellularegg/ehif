@@ -17,6 +17,7 @@ switch (_className) do
 	case "C_Hatchback_01_F": {40};
 	case "C_Hatchback_01_sport_F": {50};
 	case "C_SUV_01_F": {50};
+	case "C_Offroad_02_unarmed_F": {50};
 	case "C_Offroad_01_F": {65};
 	case "B_G_Offroad_01_F": {65};
 	case "B_MRAP_01_F": {65};
@@ -54,6 +55,7 @@ switch (_className) do
 	case "O_Heli_Light_02_unarmed_F": {200};
 	case "I_Heli_Transport_02_F": {250};
 	case "O_Heli_Transport_04_box_F": {280};
+	case "C_Plane_Civil_01_F": {300};
 	
 	// Boxes
 	case "Land_CargoBox_V1_F": {5000};

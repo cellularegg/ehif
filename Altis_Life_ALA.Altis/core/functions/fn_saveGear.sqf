@@ -184,7 +184,8 @@ if(count (handGunItems player) > 0) then
 	["life_inv_henraw", life_inv_henraw],
     ["life_inv_roosterraw", life_inv_roosterraw],
     ["life_inv_sheepraw", life_inv_sheepraw],
-    ["life_inv_goatraw", life_inv_goatraw]
+    ["life_inv_goatraw", life_inv_goatraw],
+	["life_inv_milkp", life_inv_milkp]
 ];
 
 _return pushBack _uItems;

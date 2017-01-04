@@ -6,7 +6,7 @@
 
 player setVariable ["surrender", true, true]; //Set surrender to true
 
-while { player getVariable ["surrender", false] }  do { 
+while { player getVariable ["surrender", false] && !(player getVariable["restrained",false]) }  do { 
 	player playMove "amovpercmstpsnonwnondnon_amovpercmstpssurwnondnon"; //Animation in
 	
 	// Check if player is alive.

@@ -49,6 +49,7 @@ switch (_filter) do
 		if(__GETC__(life_coplevel) > 4) then
 		{
 			_ret pushBack ["H_Beret_02",nil,100];
+			_ret pushBack ["H_Beret_gen_F",nil,100];
 		};
 		if(__GETC__(life_coplevel) > 5) then
 		{
@@ -81,7 +82,8 @@ switch (_filter) do
 		_ret pushBack ["V_Rangemaster_belt",nil,800];
 		if(__GETC__(life_coplevel) > 1) then
 		{
-			_ret pushBack ["V_TacVest_blk_POLICE",nil,100];			
+			_ret pushBack ["V_TacVest_blk_POLICE",nil,100];
+			_ret pushBack ["V_TacVest_gen_F",nil,100];		
 		};
 		
 		if(__GETC__(life_coplevel) > 2) then

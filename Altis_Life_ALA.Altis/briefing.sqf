@@ -292,7 +292,7 @@ player createDiarySubject ["help","Hilfe"];
 				"
 				1. Die Beamten dürfen nur Ausrüstung tragen, die ihrem Rang entspricht, ausgenommen temporäre Anweisungen eines höherrangigen.<br/>
 				2. Beamte müssen immer für alle Zwecke ausreichend ausgerüstet sein, jedoch muss diese angemessen wirken -> siehe “Streifendienst”<br/>
-				3. Rekruten dürfen, außer auf temporäre Anweisung eines höherrangigen, keine scharfen Waffen tragen!<br/>
+				3. Aspiranten dürfen, außer auf temporäre Anweisung eines höherrangigen, keine scharfen Waffen tragen!<br/>
 				"
 		]
 	];
@@ -304,7 +304,7 @@ player createDiarySubject ["help","Hilfe"];
 				Eine Razzia ist eine Polizeiaktion, bei der ein Gebiet betreten wird, in welchem illegale Tätikeiten/Gegenstände vermutet werden, in der Absicht diese zu finden, beschlagnahmen bzw. die Besitzer zu bestrafen.<br/><br/>
 				Regeln dafür:<br/>
 				1. Ankündigung (Nachricht/Sirene lang vorher)<br/>
-				2. mind. 4 Polizisten, einer davon mind. Wachtmeister<br/>
+				2. mind. 4 Polizisten, einer davon mind. Leutnant<br/>
 				3. ein nachvollziehbarer Grund<br/>
 				4. Nachdem das Gebiet gesichert und durchsucht wurde, muss die Polizei das Gebiet so bald wie möglich verlassen<br/>
 				5. Ein Gebiet darf nur im Abstand von 20min zu einem vorherigen Raid nochmal gestürmt werden<br/>
@@ -330,10 +330,10 @@ player createDiarySubject ["help","Hilfe"];
 			"Befehlskette / Rangordnung",
 				"
 				Die Verantwortung bzw. Leitung des Polizeidienstes übernimmt der höchstrangige, anwesende Polizist. Bei gleichen Rängen entscheidet das Dienstalter.<br/><br/>
-				Rekrut (Rekr.)<br/>
+				Aspirant (Asp.)<br/>
 				Inspektor (Insp.)<br/>
 				Chefinspektor (Chefinsp.)<br/>
-				Wachtmeister (Wachtm.)<br/>
+				Leutnant (Lt.)<br/>
 				Hauptmann (Hptm.) <br/>
 				Major (Maj.)<br/>
 				General (Gen.)<br/>

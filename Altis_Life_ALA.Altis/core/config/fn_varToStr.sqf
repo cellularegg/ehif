@@ -77,7 +77,9 @@ switch (_var) do
     case "life_inv_goatraw": {(localize "STR_Item_goatraw")};
     case "life_inv_sheepraw": {(localize "STR_Item_sheepraw")};
     case "life_inv_rabbitraw": {(localize "STR_Item_rabbitraw")};
-
+	// New farming stuff
+	case "life_inv_milk": {"Milch"};
+	case "life_inv_milkp": {"Vollmilch"};
 
 	
 	//License Block
@@ -108,4 +110,5 @@ switch (_var) do
 	case "license_civ_undercover": {"MZ"};
 	case "license_civ_ucduty": {"Zivilfahnder IM DIENST"};
 	case "license_civ_taxi": {"Taxifahrer"};
+	case "license_civ_milk": {"Milchverarbeitung"};
 };

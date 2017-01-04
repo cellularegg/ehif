@@ -27,6 +27,8 @@ switch (_filter) do
 	case 1:
 	{
 		_ret pushBack ["H_HelmetSpecB",nil,200];
+		_ret pushBack ["H_HelmetSpecB_blk",nil,200];
+		_ret pushBack ["H_HelmetB_light_black",nil,200];	
 		_ret pushBack ["H_Beret_red",nil,100];
 	};
 	
@@ -57,7 +59,9 @@ switch (_filter) do
 			["G_Bandanna_sport",nil,50],
 			["G_Bandanna_blk",nil,50],
 			["G_Bandanna_oli",nil,50],
-			["G_Bandanna_shades",nil,50]
+			["G_Bandanna_shades",nil,50],
+			["G_Balaclava_TI_blk_F",nil,100],
+			["G_Balaclava_TI_G_blk_F",nil,100]
 		];
 	};
 	
@@ -67,6 +71,7 @@ switch (_filter) do
 		_ret pushBack ["V_TacVestIR_blk",nil,800];
 		_ret pushBack ["V_RebreatherB",nil,5000];
 		_ret pushBack ["V_PlateCarrier1_blk",nil,5000];
+		_ret pushBack ["V_PlateCarrierIAGL_oli",nil,15000];
 	};
 	
 	//Backpacks

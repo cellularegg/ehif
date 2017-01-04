@@ -48,6 +48,19 @@ switch (_vehicle) do
 		};
 	};
 	
+	case "C_Offroad_02_unarmed_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Black";};
+			case 1: {_color = "Blue";};
+			case 2: {_color = "Green";};
+			case 3: {_color = "Orange";};
+			case 4: {_color = "Red";};
+			case 5: {_color = "White"};
+		};
+	};
+	
 	case "C_Offroad_01_F" :
 	{
 		switch (_index) do

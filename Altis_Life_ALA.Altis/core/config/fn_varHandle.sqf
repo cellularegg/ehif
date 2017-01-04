@@ -81,6 +81,9 @@ switch (_mode) do
             case "goatraw": {"life_inv_goatraw"};
             case "sheepraw": {"life_inv_sheepraw"};
             case "rabbitraw": {"life_inv_rabbitraw"};
+			// New farming stuff
+			case "milk": {"life_inv_milk"};
+			case "milkp": {"life_inv_milkp"};
 		};
 	};
 	
@@ -152,7 +155,10 @@ switch (_mode) do
             case "life_inv_roosterraw": {"roosterraw"};
             case "life_inv_goatraw": {"goatraw"};
             case "life_inv_sheepraw": {"sheepraw"};
-            CASE "life_inv_rabbitraw": {"rabbitraw"};
+            case "life_inv_rabbitraw": {"rabbitraw"};
+			// New farming stuff
+			case "life_inv_milk": {"milk"};
+			case "life_inv_milkp": {"milkp"};
 		};
 	};
 };

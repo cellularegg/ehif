@@ -6,7 +6,7 @@
 	Description:
 	Updates the player menu (Virtual Interaction Menu)
 */
-private["_dialog","_inv","_lic","_licenses","_near","_near_units","_mstatus","_shrt","_side"];
+private["_dialog","_inv","_lic","_licenses","_near","_near_units","_mstatus","_shrt","_side","_icon"];
 disableSerialization;
 
 if(__GETC__(life_adminlevel) < 1) then
@@ -46,11 +46,13 @@ ctrlSetText[2009,format["Weight: %1 / %2", life_carryWeight, life_maxWeight]];
 {
 	_str = [_x] call life_fnc_varToStr;
 	_shrt = [_x,1] call life_fnc_varHandle;
+	_icon = [_x] call life_fnc_itemIcon;
 	_val = missionNameSpace getVariable _x;
 	if(_val > 0) then
 	{
-		_inv lbAdd format["%1x - %2",_val,_str];
+		_inv lbAdd format["%2 [x%1]",_val,_str];
 		_inv lbSetData [(lbSize _inv)-1,_shrt];
+		_inv lbSetPicture [(lbSize _inv)-1,_icon];
 	};
 } foreach life_inv_items;
 {

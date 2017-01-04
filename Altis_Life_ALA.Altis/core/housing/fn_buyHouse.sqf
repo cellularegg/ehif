@@ -14,7 +14,7 @@ if(!(_house isKindOf "House_F")) exitWith {};
 if((_house getVariable["house_owned",false])) exitWith {hint "This house is already owned even though you shouldn't be seeing this hint..."};
 if(!isNil {(_house getVariable "house_sold")}) exitWith {hint localize "STR_House_Sell_Process"};
 if(!license_civ_home) exitWith {hint localize "STR_House_License"};
-if (__GETC__(life_donator) < 0 && __GETC__(life_adminlevel) < 0) then {
+if (__GETC__(life_donator) <= 0 && __GETC__(life_adminlevel) <= 0) then {
 	if(count life_houses >= (__GETC__(life_houseLimit))) exitWith {hint format[localize "STR_House_Max_House",__GETC__(life_houseLimit)]};
 	closeDialog 0;
 }

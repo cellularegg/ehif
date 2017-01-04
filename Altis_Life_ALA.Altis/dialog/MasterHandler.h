@@ -29,3 +29,5 @@
 #include "compensate.hpp"
 #include "wantedAdd2.hpp"
 #include "jail_time.hpp"
+#include "dynmarket_changeprice.hpp"
+#include "dynmarket_prices.hpp"

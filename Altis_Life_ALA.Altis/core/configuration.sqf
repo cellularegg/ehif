@@ -111,7 +111,7 @@ switch (playerSide) do
 	};
 	case civilian: 
 	{
-		life_atmcash = 15000; //Starting Bank Money
+		life_atmcash = 50000; //Starting Bank Money
 		life_paycheck = 1000; //Paycheck Amount
 	};
 	
@@ -195,7 +195,10 @@ life_inv_items =
     "life_inv_roosterraw",
     "life_inv_sheepraw",
     "life_inv_goatraw",
-	"life_inv_rabbitraw"
+	"life_inv_rabbitraw",
+	// New farming stuff
+	"life_inv_milk",
+	"life_inv_milkp"
 ];
 
 //Setup variable inv vars.
@@ -230,7 +233,8 @@ life_licenses =
 	["license_civ_press","civ"],
 	["license_civ_undercover","civ"],	// = member of the UC Police
 	["license_civ_ucduty","civ"],		// = on undercover patrol
-	["license_civ_taxi","civ"]			// Taxi driver!
+	["license_civ_taxi","civ"],			// Taxi driver!
+	["license_civ_milk","civ"]
 ];
 
 //Setup License Variables
@@ -246,50 +250,50 @@ life_illegal_items = [["heroinu",1200],["heroinp",2500],["cocaine",1500],["cocai
 */
 sell_array = 
 [
-	["bottledbeer",1], //alc -GT-
 	["apple",50],
-	["heroinu",2250],
+	["peach",60],
+	["copper_r",1500],
+	["oilp",3500],
+	["iron_r",2900],
+	["salt_r",1680],
+	["glass",1440],
+	["cement",2400],
+	["diamondc",2320],
+	["milkp",1500],	
+	// Illegal
 	["heroinp",4560],
+	["cocainep",5000],
+	["marijuana",2720],
+	["goldbar",95000],
+	["turtle",15000],
+	// Fish and Meat
 	["salema",100],
 	["ornate",100],
 	["mackerel",250],
 	["tuna",800],
 	["mullet",350],
 	["catshark",500],
-	["rabbit",65],
-	["oilp",3500],
-	["turtle",10000],
-	["water",5],
-	["coffee",5],
-	["turtlesoup",1000],
-	["donuts",60],
-	["marijuana",2720],
-	["tbacon",25],
-	["lockpick",75],
-	["pickaxe",750],
-	["redgull",100],
-	["peach",55],
-	["cocaine",3000],
-	["cocainep",5000],
-	["diamond",1000],
-	["diamondc",2320],
-	["iron_r",2900],
-	["copper_r",1500],
-	["salt_r",1680],
-	["glass",1440],
-	["fuelF",500],
-	["spikeStrip",1200],
-	["cement",2400],
-	["goldbar",95000],
-	["zipties",200],
-	// Hunting Stuff
 	["henraw",1500],
     ["roosterraw",1500],
     ["sheepraw",1500],
     ["goatraw",1500],
-    ["rabbitraw",1500]
+    ["rabbitraw",1500],
+	// Market Stuff
+	["water",5],
+	["coffee",5],
+	["turtlesoup",1000],
+	["donuts",60],
+	["tbacon",25],
+	["rabbit",65],
+	["lockpick",75],
+	["pickaxe",750],
+	["redgull",100],
+	["fuelF",500],
+	["spikeStrip",1200],
+	["zipties",250],
+	["bottledbeer",5]
 ];
-__CONST__(sell_array,sell_array);
+//__CONST__(sell_array,sell_array);
 
 buy_array = 
 [
@@ -431,8 +435,9 @@ life_garage_sell =
 	["C_Van_01_box_F",35000],
 	["I_Truck_02_transport_F",49800],
 	["I_Truck_02_covered_F",62000],
+	["O_Truck_03_transport_F",85000],
+	["O_Truck_03_covered_F",90000],	
 	["B_Truck_01_transport_F",135000],
-	["B_Truck_01_box_F", 150000],
 	// Helis
 	["B_Heli_Light_01_F",57000],
 	["O_Heli_Light_02_unarmed_F",72500],

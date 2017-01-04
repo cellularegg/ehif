@@ -21,7 +21,7 @@ class osefStatusBar {
 			shadow = 2;
 			colorBackground[] = { 1, 0.3, 0, 0.0 };  // uncomment and increase 4th number to have a background
 			font = "PuristaSemibold";
-			size = 0.03;
+			size = 0.04;
 			type = 13;
 			style = 1;
 			text="Loading server info...";

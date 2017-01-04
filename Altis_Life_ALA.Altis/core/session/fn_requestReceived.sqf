@@ -17,10 +17,10 @@ if(life_session_tries > 3) exitWith {cutText[localize "STR_Session_Error","BLACK
 
 //Error handling and  junk..
 if(isNil "_this") exitWith {[] call SOCK_fnc_insertPlayerInfo;};
-if(typeName _this == "STRING") exitWith {[] call SOCK_fnc_insertPlayerInfo;};
-if(count _this == 0) exitWith {[] call SOCK_fnc_insertPlayerInfo;};
-if((_this select 0) == "Error") exitWith {[] call SOCK_fnc_insertPlayerInfo;};
-if((getPlayerUID player) != _this select 0) exitWith {[] call SOCK_fnc_dataQuery;};
+if(_this isEqualType "") exitWith {[] call SOCK_fnc_insertPlayerInfo;};
+if(count _this isEqualTo 0) exitWith {[] call SOCK_fnc_insertPlayerInfo;};
+if((_this select 0) isEqualTo "Error") exitWith {[] call SOCK_fnc_insertPlayerInfo;};
+if(!(getPlayerUID player isEqualTo (_this select 0))) exitWith {[] call SOCK_fnc_dataQuery;};
 
 //Lets make sure some vars are not set before hand.. If they are get rid of them, hopefully the engine purges past variables but meh who cares.
 if(!isServer && (!isNil "life_adminlevel" OR !isNil "life_coplevel" OR !isNil "life_donator")) exitWith {

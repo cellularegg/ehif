@@ -167,6 +167,7 @@ class Life_Client_Core
 		class vehicleWeightCfg {};
 		class houseConfig {};
 		class seizeCfg {};
+		class itemIcon {};
 		
 		//Clothing Store Configs
 		class clothing_cop {};
@@ -400,6 +401,18 @@ class Life_Client_Core
 		class useCocaine {};
 		class mauer {};
 	};
+	
+	class DynMarket
+    {
+        file = "core\DynMarket";
+        class bought {};
+        class update {};
+        class DisplayPrices {};
+        class LoadIntoListbox {};
+        class ForcePrice {};
+        class DYNMARKET_getPrice {};
+		class DYNMARKET_getIcon {};
+    };
 	
 	class Dialog_Controls
 	{

@@ -8,7 +8,7 @@ disableSerialization;
 */
 _rscLayer = "osefStatusBar" call BIS_fnc_rscLayer;
 _rscLayer cutRsc["osefStatusBar","PLAIN"];
-systemChat format["[AL v3.1.4.8] Loading game server info...", _rscLayer];
+systemChat format["[AL v3.1.4.8] Loading ...", _rscLayer];
 
 [] spawn {
 	sleep 5;
@@ -18,6 +18,6 @@ systemChat format["[AL v3.1.4.8] Loading game server info...", _rscLayer];
 	{
 		sleep 1;
 		_counter = _counter - 1;
-		((uiNamespace getVariable "osefStatusBar")displayCtrl 1000)ctrlSetText format["FPS: %1 | Polizisten: %2 | Zivilisten: %3 | Sanitäter: %4 | Bar: %5 | Konto: %6 | GPS-Quadrant: %7", round diag_fps, west countSide playableUnits, civilian countSide playableUnits, independent countSide playableUnits,[life_cash] call life_fnc_numberText,[life_atmcash] call life_fnc_numberText,mapGridPosition player, _counter];
+		((uiNamespace getVariable "osefStatusBar")displayCtrl 1000)ctrlSetText format["Polizisten: %1 | Zivilisten: %2 | Sanitäter: %3 | Bar: %4 | Konto: %5 | GPS-Quadrant: %6", west countSide playableUnits, civilian countSide playableUnits, independent countSide playableUnits,[life_cash] call life_fnc_numberText,[life_atmcash] call life_fnc_numberText,mapGridPosition player, _counter];
 	}; 
 };

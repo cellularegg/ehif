@@ -8,6 +8,8 @@
 private["_crew"];
 _crew = crew cursorTarget;
 
+if(playerside == civilian && !license_civ_ucduty) exitWith {};
+
 {
 	if(side _x != west) then
 	{

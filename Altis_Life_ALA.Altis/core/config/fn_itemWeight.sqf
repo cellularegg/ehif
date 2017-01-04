@@ -65,6 +65,7 @@ switch (_item) do
     case "goatraw": {1};
     case "sheepraw": {1};
     case "rabbitraw": {1};
-
+	case "milk": {3};
+	case "milkp": {2};
 	default {1};
 };

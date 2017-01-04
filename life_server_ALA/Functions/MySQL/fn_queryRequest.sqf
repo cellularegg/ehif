@@ -38,11 +38,11 @@ diag_log format["Time to complete: %1 (in seconds)",(diag_tickTime - _tickTime)]
 diag_log format["Result: %1",_queryResult];
 diag_log "------------------------------------------------";
 
-if(typeName _queryResult == "STRING") exitWith {
+if(_queryResult isEqualType "") exitWith {
 	[[],"SOCK_fnc_insertPlayerInfo",_ownerID,false,true] spawn life_fnc_MP;
 };
 
-if(count _queryResult == 0) exitWith {
+if(count _queryResult isEqualTo 0) exitWith {
 	[[],"SOCK_fnc_insertPlayerInfo",_ownerID,false,true] spawn life_fnc_MP;
 };
 
@@ -69,7 +69,7 @@ for "_i" from 0 to (count _old)-1 do
 _queryResult set[6,_old];
 
 _new = [(_queryResult select 8)] call DB_fnc_mresToArray;
-if(typeName _new == "STRING") then {_new = call compile format["%1", _new];};
+if (_new isEqualType "") then {_new = call compile format ["%1", _new];};
 _queryResult set[8,_new];
 //Parse data for specific side.
 switch (_side) do {

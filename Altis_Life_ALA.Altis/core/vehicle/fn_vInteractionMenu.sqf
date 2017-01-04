@@ -73,7 +73,7 @@ if(playerSide == west || license_civ_ucduty) then {
 		_Btn2 buttonSetAction "[] spawn life_fnc_pushObject; closeDialog 0;";
 		if(_curTarget isKindOf "Ship" && {local _curTarget} && {count crew _curTarget == 0}) then { _Btn2 ctrlEnable true;} else {_Btn2 ctrlEnable false};
 	} else {
-		if(typeOf (_curTarget) in ["C_Kart_01_Blu_F","C_Kart_01_Red_F","C_Kart_01_Fuel_F","C_Kart_01_Vrana_F","B_Heli_Transport_03_F","B_Heli_Transport_03_unarmed_F","O_Heli_Transport_04_F","O_Heli_Transport_04_ammo_F","O_Heli_Transport_04_bench_F","O_Heli_Transport_04_box_F","O_Heli_Transport_04_covered_F","O_Heli_Transport_04_fuel_F","O_Heli_Transport_04_medevac_F","O_Heli_Transport_04_repair_F"]) then {
+		if(typeOf (_curTarget) in ["C_Kart_01_Blu_F","C_Kart_01_Red_F","C_Kart_01_Fuel_F","C_Kart_01_Vrana_F","B_Heli_Transport_03_F","B_Heli_Transport_03_unarmed_F","O_Heli_Transport_04_F","O_Heli_Transport_04_ammo_F","O_Heli_Transport_04_bench_F","O_Heli_Transport_04_box_F","O_Heli_Transport_04_covered_F","O_Heli_Transport_04_fuel_F","O_Heli_Transport_04_medevac_F","O_Heli_Transport_04_repair_F","C_Offroad_02_unarmed_F","C_Scooter_Transport_01_F","C_Boat_Transport_02_F"]) then {
 			_Btn2 ctrlSetText localize "STR_vInAct_GetInKart";
 			_Btn2 buttonSetAction "player moveInDriver life_vInact_curTarget; closeDialog 0;";
 			if(count crew _curTarget == 0 && {canMove _curTarget} && {locked _curTarget == 0}) then {_Btn2 ctrlEnable true;} else {_Btn2 ctrlEnable false};
@@ -99,6 +99,13 @@ if(playerSide == west || license_civ_ucduty) then {
 	};
 	
 	_Btn4 ctrlShow false;
-	_Btn5 ctrlShow false;
+	
+	if (playerSide == independent) then {
+		_Btn5 ctrlSetText localize "STR_vInAct_Impound";
+		_Btn5 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_impoundAction;";
+	} else {
+		_Btn5 ctrlShow false;
+	};
+	
 	_Btn6 ctrlShow false;
 };

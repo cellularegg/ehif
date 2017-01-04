@@ -15,6 +15,7 @@ switch(playerSide) do
 	case west: 
 	{
 		ctrlShow[2011,false];
+		ctrlShow[3025,false];	// Market
 	};
 	
 	case civilian:
@@ -26,6 +27,7 @@ switch(playerSide) do
 	{
 		ctrlShow[9800,false];	// Wanted+ -GT-
 		ctrlShow[2011,false];	// Gang menu -GT-
+		ctrlShow[3025,false];	// Market
 	};
 };
 

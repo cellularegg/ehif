@@ -114,3 +114,6 @@ life_fnc_garageRefund = compileFinal
 
 __CONST__(life_paycheck,life_paycheck); //Make the paycheck static.
 player enableFatigue (__GETC__(life_enableFatigue));
+
+DYNAMICMARKET_boughtItems = [];
+[[getPlayerUID player],"TON_fnc_playerLogged",false,false] spawn life_fnc_MP;

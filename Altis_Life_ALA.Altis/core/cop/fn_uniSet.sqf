@@ -10,10 +10,6 @@ switch (playerSide) do
 	{
 		if (uniform player == "U_C_Poloshirt_redwhite") then {
 			player setObjectTextureGlobal [0,"textures\civ_uniform_ala.paa"];
-		}
-		else
-		{
-			// don't do anything, mofo!
 		};
 	};
 	
@@ -28,6 +24,14 @@ switch (playerSide) do
 			if (uniform player == "U_B_CombatUniform_mcam") then {
 				player setObjectTextureGlobal [0,"textures\bp_cobra_uniform.paa"];
 				(unitBackpack player) setObjectTextureGlobal [0,""];
+			}
+			else
+			{
+				if (uniform player == "U_I_CombatUniform") then {
+					systemChat "indep uniform";
+					player setObjectTextureGlobal [0,"textures\texturBE.paa"];
+					(unitBackpack player) setObjectTextureGlobal [0,""];
+				};
 			};
 		};
 	};

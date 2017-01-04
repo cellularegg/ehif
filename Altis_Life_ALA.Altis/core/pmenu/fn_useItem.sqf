@@ -12,7 +12,7 @@ _item = lbData[2005,(lbCurSel 2005)];
 
 switch (true) do
 {
-	case (_item == "water" or _item == "coffee" or _item =="almdudler"):
+	case (_item == "water" or _item == "coffee" or _item =="almdudler" or _item == "milkp"):
 	{
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
@@ -112,6 +112,7 @@ switch (true) do
 			life_drink = life_drink + 0.02;
 			if (life_drink < 0.06) exitWith {};
 			[] spawn life_fnc_drinkbeer;
+			player say3D "beeropen";
 		};
 	};
 	

@@ -138,3 +138,6 @@ execVM "\life_server\Functions\paintball\arena_paintball.sqf";
 
 /* Initialize hunting zone(s) */
 ["hunting_zone",100] spawn TON_fnc_huntingZone;
+
+// DynMarket
+[] execVM "\life_server\Functions\DynMarket\fn_config.sqf";

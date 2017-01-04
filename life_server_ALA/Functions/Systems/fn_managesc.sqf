@@ -12,6 +12,8 @@ _side = [_this,2,civilian,[west]] call BIS_fnc_param;
 
 if(isNull _unit) exitWith {};
 
+// Old and broken. What was this even for?
+/* 
 switch (_side) do
 {
 	case west:
@@ -50,3 +52,4 @@ switch (_side) do
 		};
 	};
 };
+*/

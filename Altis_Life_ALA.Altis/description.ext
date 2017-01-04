@@ -6,7 +6,7 @@ respawn = BASE;
 respawndelay = 0;
 loadScreen = "textures\intro.jpg";
 disabledAI = true;
-disableChannels[]={0,1,2};
+disableChannels[]={{0,true,true},{1,false,true},{2,true,true}};
 enableDebugConsole = 1;
 respawnDialog = 0;
 
@@ -118,6 +118,13 @@ class CfgSounds
 		sound[]= {"\sounds\sirenalarm.ogg",1.0,1};
 		titles[] = {};
 	};
+	
+	class beeropen
+	{
+		name = "beeropen";
+		sound[]= {"\sounds\beeropen.ogg",1.0,1};
+		titles[] = {};
+	};
 };
 
 class CfgDebriefing
@@ -126,7 +133,7 @@ class CfgDebriefing
 	{
 		title = "Mission gescheitert.";
 		subtitle = "Du bist nicht whitelisted!";
-		description = "Du darfst diesen Slot nicht benutzen, da er nur für whitelisted Spieler ist und du scheinbar keiner davon bist.";
+		description = "Dieser Slot ist nur für whitelisted Spieler. Bewirb dich auf www.altislifeaustria.at";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};

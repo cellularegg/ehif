@@ -42,9 +42,10 @@ switch (_mode) do
 			case "home": {_var = "license_civ_home"};
 			case "lawyer": {_var = "license_civ_lawyer"};
 			case "press": {_var = "license_civ_press"};
-			case "uccop": { _var = "license_cop_undercover"};
-			case "ucciv": { _var = "license_civ_ucduty"};
-			case "taxi": { _var = "license_civ_taxi"};
+			case "uccop": {_var = "license_cop_undercover"};
+			case "ucciv": {_var = "license_civ_ucduty"};
+			case "taxi": {_var = "license_civ_taxi"};
+			case "milk": {_var = "license_civ_milk"};
 			default {_var = ""};
 		};
 	};
@@ -81,7 +82,8 @@ switch (_mode) do
 			case "license_civ_press": {_var = "press"};
 			case "license_civ_undercover": {_var = "uc"};	// = member of the UC Police
 			case "license_civ_ucduty": {_var = "uccduty"};	// = on undercover patrol
-			case "license_civ_taxi": { _var = "taxi"};
+			case "license_civ_taxi": {_var = "taxi"};
+			case "license_civ_milk": {_var = "milk"};
 			default {_var = ""};
 		};
 	};

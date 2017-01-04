@@ -10,11 +10,11 @@ private["_uid","_name","_side","_money","_bank","_licenses","_handler","_thread"
 _uid = [_this,0,"",[""]] call BIS_fnc_param;
 _name = [_this,1,"",[""]] call BIS_fnc_param;
 _money = [_this,2,0,[""]] call BIS_fnc_param;
-_bank = [_this,3,2500,[""]] call BIS_fnc_param;
+_bank = [_this,3,50000,[""]] call BIS_fnc_param;
 _returnToSender = [_this,4,ObjNull,[ObjNull]] call BIS_fnc_param;
 
 //Error checks
-if((_uid == "") OR (_name == "")) exitWith {systemChat "Bad UID or name";}; //Let the client be 'lost' in 'transaction'
+if((_uid isEqualTo "") OR (_name isEqualTo "")) exitWith {systemChat "Bad UID or name";}; //Let the client be 'lost' in 'transaction'
 if(isNull _returnToSender) exitWith {systemChat "ReturnToSender is Null!";}; //No one to send this to!
 
 _query = format["SELECT playerid, name FROM players WHERE playerid='%1'",_uid];
@@ -30,8 +30,8 @@ diag_log format["Result: %1",_queryResult];
 diag_log "------------------------------------------------";
 
 //Double check to make sure the client isn't in the database...
-if(typeName _queryResult == "STRING") exitWith {[[],"SOCK_fnc_dataQuery",(owner _returnToSender),false] spawn life_fnc_MP;}; //There was an entry!
-if(count _queryResult != 0) exitWith {[[],"SOCK_fnc_dataQuery",(owner _returnToSender),false] spawn life_fnc_MP;};
+if(_queryResult isEqualType "") exitWith {[[],"SOCK_fnc_dataQuery",(owner _returnToSender),false] spawn life_fnc_MP;}; //There was an entry!
+if !(count _queryResult isEqualTo  0) exitWith {[[],"SOCK_fnc_dataQuery",(owner _returnToSender),false] spawn life_fnc_MP;};
 
 //Clense and prepare some information.
 _name = [_name] call DB_fnc_mresString; //Clense the name of bad chars.
